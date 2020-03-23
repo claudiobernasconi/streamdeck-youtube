@@ -1,7 +1,7 @@
 ﻿namespace streamdeckyoutube.Models
 {
-  public class YouTubeModel
-  {
-	public int SubscriberCount { get; set; } = 1;
-  }
+    public class YouTubeModel
+    {
+        public int SubscriberCount { get; set; } = 1;
+    }
 }
