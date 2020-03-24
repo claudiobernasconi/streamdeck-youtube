@@ -2,6 +2,7 @@
 {
     public class YouTubeModel
     {
-        public int SubscriberCount { get; set; } = 1;
+        public string ApiKey { get; set; }
+        public string ChannelId { get; set; }
     }
 }

@@ -13,10 +13,15 @@
 			and
 			Elgato SDK Documentation -> https://developer.elgato.com/documentation/stream-deck/sdk/property-inspector/
 	-->
-		
-		<div class="sdpi-item" id="counter_value">
-			<div class="sdpi-item-label">Counter Value</div>
-			<input id="txtCounterValue" class="sdpi-item-value" type="number" inputmode="numeric" pattern="[0-9]*" placeholder="Enter counter number" onchange="setSettings(event.target.value, 'Counter')" />
+
+		<div class="sdpi-item" id="apikey_value">
+			<div class="sdpi-item-label">API Key</div>
+			<input id="txtApiKeyValue" class="sdpi-item-value" type="text" placeholder="Enter API Key" onchange="setSettings(event.target.value, 'ApiKey')" />
+		</div>
+
+		<div class="sdpi-item" id="channelid_value">
+			<div class="sdpi-item-label">Channel Id</div>
+			<input id="txtChannelIdValue" class="sdpi-item-value" type="text" placeholder="Enter Channel Id" onchange="setSettings(event.target.value, 'ChannelId')" />
 		</div>
 
 	</div>

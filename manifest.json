@@ -2,7 +2,7 @@
   "Actions": [
     {
       "Icon": "images/actionIcon",
-      "Name": "streamdeckyoutubeAction",
+      "Name": "Subscriber Count",
       "States": [
         {
           "Image": "images/actionDefaultImage",
