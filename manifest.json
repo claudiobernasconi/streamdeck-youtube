@@ -13,32 +13,60 @@
       "SupportedInMultiActions": false,
       "Tooltip": "Shows the current subscriber count of a YouTube channel.",
       "UUID": "ch.claudiobernasconi.streamdeckyoutube.SubscriberCount.DefaultPluginAction"
+    },
+    {
+      "Icon": "images/subscriberCountIcon",
+      "Name": "View Count",
+      "States": [
+        {
+          "Image": "images/transparentImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Shows the current view count of a YouTube channel.",
+      "UUID": "ch.claudiobernasconi.streamdeckyoutube.ViewCountAction"
+    },
+    {
+      "Icon": "images/subscriberCountIcon",
+      "Name": "Video Count",
+      "States": [
+        {
+          "Image": "images/transparentImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Shows the current video count of a YouTube channel.",
+      "UUID": "ch.claudiobernasconi.streamdeckyoutube.VideoCountAction"
     }
   ],
-	"Category": "YouTube",
-	"CategoryIcon": "images/category/categoryIcon",
-	"Disabled":  false,
-	"Author": "Claudio Bernasconi",
-	"CodePathWin": "streamdeckyoutube.exe",
-	"CodePathMac":  "streamdeckyoutube",
+  "Category": "YouTube Channel Statistics",
+  "CategoryIcon": "images/category/categoryIcon",
+  "Disabled": false,
+  "Author": "Claudio Bernasconi",
+  "CodePathWin": "streamdeckyoutube.exe",
+  "CodePathMac": "streamdeckyoutube",
   "PropertyInspectorPath": "property_inspector/property_inspector.html",
-  "Description": "Shows the subscriber count of a YouTube channel.",
-  "Name": "YouTube Statistics",
+  "Description": "Shows the subscriber count, the view count, and the video count of a YouTube channel.",
+  "Name": "YouTube Channel Statistics",
   "Icon": "images/pluginIcon",
   "URL": "https://www.elgato.com/gaming/stream-deck",
   "Version": "1.0",
-	"SDKVersion": 2,
-	"Software": {
-		"MinimumVersion":  "4.1"
-	},
-	"OS": [
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.1"
+  },
+  "OS": [
     {
-        "Platform": "mac",
-        "MinimumVersion" : "10.11"
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
     },
     {
-        "Platform": "windows",
-        "MinimumVersion" : "10"
+      "Platform": "windows",
+      "MinimumVersion": "10"
     }
   ]
 }
