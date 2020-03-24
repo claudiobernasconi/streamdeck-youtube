@@ -1,29 +1,29 @@
 {
   "Actions": [
     {
-      "Icon": "images/actionIcon",
+      "Icon": "images/subscriberCountIcon",
       "Name": "Subscriber Count",
       "States": [
         {
-          "Image": "images/actionDefaultImage",
+          "Image": "images/transparentImage",
           "TitleAlignment": "middle",
           "FontSize": "16"
         }
       ],
       "SupportedInMultiActions": false,
-      "Tooltip": "The first action for the streamdeckyoutube Stream Deck plugin",
+      "Tooltip": "Shows the current subscriber count of a YouTube channel.",
       "UUID": "ch.claudiobernasconi.streamdeckyoutube.SubscriberCount.DefaultPluginAction"
     }
   ],
 	"Category": "YouTube",
-	"CategoryIcon": "images/category/categoryIcon.png",
+	"CategoryIcon": "images/category/categoryIcon",
 	"Disabled":  false,
 	"Author": "Claudio Bernasconi",
 	"CodePathWin": "streamdeckyoutube.exe",
 	"CodePathMac":  "streamdeckyoutube",
   "PropertyInspectorPath": "property_inspector/property_inspector.html",
   "Description": "Shows the subscriber count of a YouTube channel.",
-  "Name": "streamdeckyoutube",
+  "Name": "YouTube Statistics",
   "Icon": "images/pluginIcon",
   "URL": "https://www.elgato.com/gaming/stream-deck",
   "Version": "1.0",

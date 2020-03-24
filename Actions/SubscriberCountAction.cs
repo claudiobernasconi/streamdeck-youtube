@@ -6,10 +6,10 @@ using StreamDeckLib.Messages;
 using System;
 using System.Threading.Tasks;
 
-namespace streamdeckyoutube
+namespace streamdeckyoutube.Actions
 {
     [ActionUuid(Uuid = "ch.claudiobernasconi.streamdeckyoutube.SubscriberCount.DefaultPluginAction")]
-    public class SubscriberCount : BaseStreamDeckActionWithSettingsModel<Models.YouTubeModel>
+    public class SubscriberCountAction : BaseStreamDeckActionWithSettingsModel<Models.YouTubeModel>
     {
         public override async Task OnKeyUp(StreamDeckEventPayload args)
         {
@@ -47,6 +47,7 @@ namespace streamdeckyoutube
                 }
                 catch (GoogleApiException e)
                 {
+                    await Manager.SetTitleAsync(args.context, "?");
                     Console.WriteLine(e.Message);
                 }
             }

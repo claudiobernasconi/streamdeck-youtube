@@ -16,6 +16,12 @@
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition=" '$(Configuration)'=='Debug'">
 		<Exec Command="powershell -ExecutionPolicy Unrestricted -file &quot;$(ProjectDir)RegisterPluginAndStartStreamDeck.ps1&quot;" />
 	</Target>
+	<ItemGroup>
+	  <None Remove="images\subscriberCountIcon.png" />
+	  <None Remove="images\subscriberCountIcon@2x.png" />
+	  <None Remove="images\transparentImage.png" />
+	  <None Remove="images\transparentImage@2x.png" />
+	</ItemGroup>
 
 	<!--Dependencies-->
 	<ItemGroup>
@@ -47,16 +53,16 @@
 
 	<!-- Images that must be deployed with the executable -->
 	<ItemGroup>
-		<Content Include="images/actionDefaultImage.png">
+		<Content Include="images\transparentImage.png">
 				<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
-		<Content Include="images/actionDefaultImage@2x.png">
+		<Content Include="images\transparentImage%402x.png">
 				<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
-		<Content Include="images/actionIcon.png">
+		<Content Include="images\subscriberCountIcon.png">
 				<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
-		<Content Include="images/actionIcon@2x.png">
+		<Content Include="images\subscriberCountIcon%402x.png">
 				<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 		<Content Include="images/pluginIcon.png">
