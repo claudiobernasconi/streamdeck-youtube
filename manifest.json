@@ -53,7 +53,7 @@
   "Description": "Shows the subscriber count, the view count, and the video count of a YouTube channel.",
   "Name": "YouTube Channel Statistics",
   "Icon": "images/pluginIcon",
-  "URL": "https://www.elgato.com/gaming/stream-deck",
+  "URL": "https://github.com/claudiobernasconi/streamdeck-youtube",
   "Version": "1.0",
   "SDKVersion": 2,
   "Software": {
