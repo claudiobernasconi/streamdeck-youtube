@@ -15,6 +15,8 @@ To get an API key follow these steps:
 
 You need the following information to make the plugin work:
 
+![Subscriber Count Properties](https://github.com/claudiobernasconi/streamdeck-youtube/blob/master/docs/Subscriber-count-properties.png?raw=true)
+
 * The YouTube API key generated above
 * The channel id of the desired YouTube channel
 
