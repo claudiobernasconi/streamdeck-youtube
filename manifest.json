@@ -12,7 +12,7 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "Shows the current subscriber count of a YouTube channel.",
-      "UUID": "ch.claudiobernasconi.streamdeckyoutube.SubscriberCount.DefaultPluginAction"
+      "UUID": "ch.claudiobernasconi.youtubestats"
     },
     {
       "Icon": "images/subscriberCountIcon",
@@ -26,7 +26,7 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "Shows the current view count of a YouTube channel.",
-      "UUID": "ch.claudiobernasconi.streamdeckyoutube.ViewCountAction"
+      "UUID": "ch.claudiobernasconi.youtubestats.viewcount"
     },
     {
       "Icon": "images/subscriberCountIcon",
@@ -40,15 +40,14 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "Shows the current video count of a YouTube channel.",
-      "UUID": "ch.claudiobernasconi.streamdeckyoutube.VideoCountAction"
+      "UUID": "ch.claudiobernasconi.youtubestats.videocount"
     }
   ],
   "Category": "YouTube Channel Statistics",
   "CategoryIcon": "images/category/categoryIcon",
   "Disabled": false,
   "Author": "Claudio Bernasconi",
-  "CodePathWin": "streamdeckyoutube.exe",
-  "CodePathMac": "streamdeckyoutube",
+  "CodePath": "streamdeckyoutube.exe",
   "PropertyInspectorPath": "property_inspector/property_inspector.html",
   "Description": "Shows the subscriber count, the view count, and the video count of a YouTube channel.",
   "Name": "YouTube Channel Statistics",

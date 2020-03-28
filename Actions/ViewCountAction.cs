@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace streamdeckyoutube.Actions
 {
-    [ActionUuid(Uuid = "ch.claudiobernasconi.streamdeckyoutube.ViewCountAction")]
+    [ActionUuid(Uuid = "ch.claudiobernasconi.youtubestats.viewcount")]
     public class ViewCountAction : YouTubeDataAPIAction 
     { 
         protected override async Task OnChannelStatisticsReceived(string context, ChannelListResponse channelData)

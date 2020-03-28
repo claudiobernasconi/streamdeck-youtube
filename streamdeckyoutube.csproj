@@ -17,6 +17,8 @@
 		<Exec Command="powershell -ExecutionPolicy Unrestricted -file &quot;$(ProjectDir)RegisterPluginAndStartStreamDeck.ps1&quot;" />
 	</Target>
 	<ItemGroup>
+	  <None Remove="images\category\categoryIcon%402x.png" />
+	  <None Remove="images\category\categoryIcon.png" />
 	  <None Remove="images\subscriberCountIcon.png" />
 	  <None Remove="images\subscriberCountIcon@2x.png" />
 	  <None Remove="images\transparentImage.png" />
@@ -43,6 +45,12 @@
 
 	<!--Deployment files that must go with the build executable -->
 	<ItemGroup>
+		<Content Include="images\category\categoryIcon.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\category\categoryIcon@2x.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
 		<Content Include="manifest.json">
 				<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
