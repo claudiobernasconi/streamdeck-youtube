@@ -12,6 +12,9 @@ In order to use this plugin you need a **YouTube Data API key** provided by Goog
 
 Read more on [how to use this plugin](https://github.com/claudiobernasconi/streamdeck-youtube/blob/master/How_To_Use_This_Plugin.md).
 
+## Preview
+![Plugin Preview](https://github.com/claudiobernasconi/streamdeck-youtube/blob/master/docs/Preview.png?raw=true)
+
 ## References
 Here are some helpful references for this plugin, the [StreamDeckToolkit](https://github.com/FritzAndFriends/StreamDeckToolkit) template and the Stream Deck:
 
