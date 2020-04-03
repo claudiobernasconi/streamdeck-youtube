@@ -25,5 +25,7 @@ Here are some helpful references for this plugin, the [StreamDeckToolkit](https:
 
 ## Author
 Twitter: [@CHBernasconiC](https://twitter.com/CHBernasconiC)
+
 Blog: [www.claudiobernasconi.ch](https://www.claudiobernasconi.ch)
+
 YouTube: [www.youtube.com/claudiobernasconi](https://youtube.com/claudiobernasconi)
