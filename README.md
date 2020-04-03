@@ -22,3 +22,8 @@ Here are some helpful references for this plugin, the [StreamDeckToolkit](https:
 <!-- References -->
 [Stream Deck]: https://www.elgato.com/en/gaming/stream-deck "Elgato's Stream Deck landing page for the hardware, software, and SDK"
 [Stream Deck SDK]: https://developer.elgato.com/documentation/stream-deck "Elgato's online SDK documentation"
+
+## Author
+Twitter: [@CHBernasconiC](https://twitter.com/CHBernasconiC)
+Blog: [www.claudiobernasconi.ch](https://www.claudiobernasconi.ch)
+YouTube: [www.youtube.com/claudiobernasconi](https://youtube.com/claudiobernasconi)
