@@ -244,3 +244,6 @@ ModelManifest.xml
 # Config files
 Soccerscreen/appsettings.json
 Soccerscreen/appsettings.Development.json
+
+# Distribution files
+/dist
