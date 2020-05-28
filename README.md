@@ -22,9 +22,15 @@ Here are some helpful references for this plugin, the [StreamDeckToolkit](https:
 * [Stream Deck Page][Stream Deck]
 * [Stream Deck SDK Documentation][Stream Deck SDK]
 
-<!-- References -->
 [Stream Deck]: https://www.elgato.com/en/gaming/stream-deck "Elgato's Stream Deck landing page for the hardware, software, and SDK"
 [Stream Deck SDK]: https://developer.elgato.com/documentation/stream-deck "Elgato's online SDK documentation"
+
+## Error Codes
+**E1**: No YouTube API key provided.
+**E2**: Error fetching data from the YouTube API.
+**E3**: Unknown error.
+
+Whenever you have an error you cannot fix, please open an issue and attach the log files. Without log files, I'm unable to diagnose the problem and not provide a fix for it.
 
 ## Author
 Twitter: [@CHBernasconiC](https://twitter.com/CHBernasconiC)
