@@ -30,7 +30,7 @@ Here are some helpful references for this plugin, the [StreamDeckToolkit](https:
 **E2**: Error fetching data from the YouTube API.  
 **E3**: Unknown error.
 
-Whenever you have an error you cannot fix, please open an issue and attach the log files. Without log files, I'm unable to diagnose the problem and not provide a fix for it.
+Whenever you have an error you cannot fix, please open an issue and attach the log files. Without log files, I'm unable to diagnose the problem and cannot provide a fix for it.
 
 ## Author
 Twitter: [@CHBernasconiC](https://twitter.com/CHBernasconiC)  
