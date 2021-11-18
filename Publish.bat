@@ -4,10 +4,10 @@ set PLATFORM=net6.0
 rmdir dist /s /q
 mkdir dist
 
-dotnet build streamdeckyoutube.csproj -c Release -a x64
+dotnet build streamdeckyoutube\streamdeckyoutube.csproj -c Release -a x64
 
-dotnet publish streamdeckyoutube.csproj -c Release --self-contained
-xcopy ".\bin\%PLATFORM%\Release\%PLATFORM%\win-x64\publish\*.*" ".\dist\%PACKAGE_UUID%\*.*" /sy
+dotnet publish streamdeckyoutube\streamdeckyoutube.csproj -c Release --self-contained
+xcopy ".\streamdeckyoutube\bin\%PLATFORM%\Release\%PLATFORM%\win-x64\publish\*.*" ".\dist\%PACKAGE_UUID%\*.*" /sy
 
 xcopy ".\lib\DistributionTool.exe" ".\dist\" /sy
 cd dist

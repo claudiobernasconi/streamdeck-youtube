@@ -10,7 +10,7 @@ if ($PSSCriptRoot.Length -eq 0) {
 
 
 # Load and parse the plugin project file
-$pluginProjectFile = "$basePath\streamdeckyoutube.csproj"
+$pluginProjectFile = "$basePath\streamdeckyoutube\streamdeckyoutube.csproj"
 $projectContent = Get-Content $pluginProjectFile | Out-String;
 $projectXML = [xml]$projectContent;
 
@@ -23,7 +23,7 @@ $targetFrameworkName = $projectXML.Project.PropertyGroup.TargetFramework;
 $streamDeckExePath = "$($ENV:ProgramFiles)\Elgato\StreamDeck\StreamDeck.exe"
 
 # For now, this PS script will only be run on Windows.
-$bindir = "$basePath\bin\Debug\$targetFrameworkName\win-x64"
+$bindir = "$basePath\streamdeckyoutube\bin\Debug\$targetFrameworkName\win-x64"
 
 # Make sure we actually have a directory/build to deploy
 If (-not (Test-Path $bindir)) {
@@ -32,7 +32,7 @@ If (-not (Test-Path $bindir)) {
 }
 
 # Load and parse the plugin's manifest file
-$manifestFile = $bindir +"\manifest.json"
+$manifestFile = $bindir +"streamdeckyoutube\manifest.json"
 $manifestContent = Get-Content $manifestFile | Out-String
 $json = ConvertFrom-JSON $manifestcontent
 
