@@ -1,11 +1,13 @@
 set PACKAGE_UUID=ch.claudiobernasconi.youtubestats.sdPlugin
-set PLATFORM=netcoreapp2.2
+set PLATFORM=net6.0
 
 rmdir dist /s /q
 mkdir dist
 
-dotnet publish -c Release --self-contained
-xcopy ".\bin\Release\%PLATFORM%\win-x64\publish\*.*" ".\dist\%PACKAGE_UUID%\*.*" /sy
+dotnet build streamdeckyoutube.csproj -c Release -a x64
+
+dotnet publish streamdeckyoutube.csproj -c Release --self-contained
+xcopy ".\bin\%PLATFORM%\Release\%PLATFORM%\win-x64\publish\*.*" ".\dist\%PACKAGE_UUID%\*.*" /sy
 
 xcopy ".\lib\DistributionTool.exe" ".\dist\" /sy
 cd dist
