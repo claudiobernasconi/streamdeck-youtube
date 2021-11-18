@@ -53,7 +53,7 @@
   "Name": "YouTube Channel Statistics",
   "Icon": "images/pluginIcon",
   "URL": "https://github.com/claudiobernasconi/streamdeck-youtube",
-  "Version": "1.1",
+  "Version": "1.2",
   "SDKVersion": 2,
   "Software": {
     "MinimumVersion": "4.1"

@@ -9,8 +9,12 @@ namespace streamdeckyoutube.Actions
     { 
         protected override async Task OnChannelStatisticsReceived(string context, ChannelListResponse channelData)
         {
-            var subscriberCount = channelData.Items[0].Statistics.ViewCount;
-            await Manager.SetTitleAsync(context, subscriberCount.ToString());
+            var viewCount = channelData.Items[0].Statistics.ViewCount;
+
+            var numberFormatter = new NumberFormatter();
+            var viewCountStr = numberFormatter.FormatNumber(viewCount);
+
+            await Manager.SetTitleAsync(context, viewCountStr);
         }
     }
 }
